@@ -19,5 +19,7 @@ class TextAnalyzer
   end
 
   def most_used_letter
-  end 
+    s1 = text.gsub(/[^a-z]/, '') #gets rid of spaces
+    
+  end
 end
